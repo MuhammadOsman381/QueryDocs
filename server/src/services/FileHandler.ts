@@ -21,7 +21,6 @@ const DeleteFile = async (file: string) => {
 }
 
 
-
 const readFileAsync = promisify(fs.readFile);
 
 /**
